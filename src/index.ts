@@ -5,6 +5,10 @@ import {API} from "./ranking";
 // This is your client. Some people call it `bot`, some people call it `self`, 
 // some might call it `cootchie`. Either way, when you see `client.something`, or `bot.something`,
 // this is what we're refering to. Your client.
+
+// Just removed a M from the end of the TOKEN in config.json file
+
+
 const client = new Discord.Client();
 
 const apiCaller = new API("RGAPI-062d9d68-7ec3-4081-893f-d6a044a041d3", "EUW1");
